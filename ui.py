@@ -50,6 +50,7 @@ class PortScanUI(object):
         self.stop_button = QtWidgets.QPushButton(self.verticalLayoutWidget_2)
         self.stop_button.setObjectName("stop_button")
         self.gridLayout_2.addWidget(self.stop_button, 2, 4, 1, 1)
+
         self.host_b = QtWidgets.QLineEdit(self.verticalLayoutWidget_2)
         self.host_b.setObjectName("host_b")
         self.gridLayout_2.addWidget(self.host_b, 0, 4, 1, 1)
